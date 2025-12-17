@@ -23,65 +23,58 @@ export const LANGUAGES: Language[] = [
   { name: 'Thai', level: 'Learning', proficiency: 15 },
 ];
 
+/**
+ * Replace the filenames below (e.g., 'elegant_1.jpg') with the 
+ * actual names of the photos you put in your /assets folder.
+ */
 export const PORTFOLIO_PHOTOS: Photo[] = [
   {
     id: '1',
-    url: 'https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=1000',
+    url: './assets/elegant_1.jpg',
     category: CategoryType.ELEGANT,
-    description: 'Black tie sophistication with architectural context.'
+    description: 'Elegant studio portrait.'
   },
   {
     id: '2',
-    url: 'https://images.unsplash.com/photo-1488161628813-04466f872be2?q=80&w=1000',
+    url: './assets/casual_1.jpg',
     category: CategoryType.CASUAL,
-    description: 'Relaxed urban lifestyle, highlighting natural movement.'
+    description: 'Casual lifestyle shot.'
   },
   {
     id: '3',
-    url: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1000',
+    url: './assets/smiling_1.jpg',
     category: CategoryType.SMILING,
-    description: 'Warm commercial appeal for lifestyle brands.'
+    description: 'Commercial smiling shot.'
   },
   {
     id: '4',
-    url: 'https://images.unsplash.com/photo-1550246140-5119ae4790b8?q=80&w=1000',
+    url: './assets/parfum_1.jpg',
     category: CategoryType.FRAGRANCE,
-    description: 'High contrast, moody aesthetic for luxury beauty.'
+    description: 'Fragrance campaign aesthetic.'
   },
   {
     id: '5',
-    url: 'https://images.unsplash.com/photo-1512633017083-67231aba710d?q=80&w=1000',
+    url: './assets/sport_1.jpg',
     category: CategoryType.SPORT,
-    description: 'Physical peak, dynamic athletic movement (topless).'
+    description: 'Athletic/Sport physique.'
   },
   {
     id: '6',
-    url: 'https://images.unsplash.com/photo-1520975661595-6453be3f7070?q=80&w=1000',
+    url: './assets/leather_1.jpg',
     category: CategoryType.LEATHER,
-    description: 'Classic heritage styling with leather jacket.'
+    description: 'Classic leather jacket look.'
   },
   {
     id: '7',
-    url: 'https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?q=80&w=1000',
+    url: './assets/fashion_1.jpg',
     category: CategoryType.FAST_FASHION,
-    description: 'Contemporary street style, high-energy vibes.'
+    description: 'Fast fashion/Commercial look.'
   },
   {
     id: '8',
-    url: 'https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?q=80&w=1000',
+    url: './assets/pola_1.jpg',
     category: CategoryType.BODY_360,
-    description: 'Standard agency polaroids, raw and unretouched.'
-  },
-  {
-    id: '9',
-    url: 'https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?q=80&w=1000',
-    category: CategoryType.ELEGANT,
-    description: 'Editorial luxury, focus on tailoring.'
-  },
-  {
-    id: '10',
-    url: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1000',
-    category: CategoryType.FRAGRANCE,
-    description: 'Fragrance campaign aesthetic: Mystery and depth.'
+    description: 'Classic agency polaroids.'
   }
 ];
+
